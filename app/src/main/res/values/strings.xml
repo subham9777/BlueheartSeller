@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Blueheart Seller</string>
+    <string name="scan">SCAN</string>
+    <string name="qrcode_scanner">QRCode Scanner</string>
+    <string name="categories">Categories</string>
+    <string name="sub_categories">Sub Categories</string>
+    <string name="code_from_scanner">Code from scanner</string>
+    <string-array name="acc_type">
+        <item>Automobile</item>
+        <item>Business Services</item>
+        <item>Computers</item>
+        <item>Education</item>
+        <item>Personal</item>
+        <item>Travel</item>
+    </string-array>
+    <string-array name="subsubcat">
+        <item>Automobile</item>
+        <item>Business Services</item>
+        <item>Computers</item>
+        <item>Education</item>
+        <item>Personal</item>
+        <item>Travel</item>
+    </string-array>
+</resources>

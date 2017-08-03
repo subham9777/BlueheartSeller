@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "548137956618",
+    "firebase_url": "https://blueheartseller.firebaseio.com",
+    "project_id": "blueheartseller",
+    "storage_bucket": "blueheartseller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548137956618:android:815612b438009840",
+        "android_client_info": {
+          "package_name": "seller.blueheart.com.blueheartseller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548137956618-a6rpedf5qf7qsceft3e1dfpa9c3179qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "seller.blueheart.com.blueheartseller",
+            "certificate_hash": "dcb555abb69fc6906e8f8cacb1cb4c826afd4b65"
+          }
+        },
+        {
+          "client_id": "548137956618-ko9sa8lbittjdns81efh32blcp92vo62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1G5xyj2RKDIN8p0_kS-YV1U0hsIIlX8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548137956618-ko9sa8lbittjdns81efh32blcp92vo62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
