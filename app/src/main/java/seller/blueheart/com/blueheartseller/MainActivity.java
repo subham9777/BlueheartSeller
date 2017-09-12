@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final int PICK_IMAGE_REQUEST = 234;
 
     //view objects
+    private String temp_key;
     private Button buttonChoose;
     private Button buttonUpload;
     private EditText editTextName,code_scan;
@@ -160,6 +161,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             dataAdapter6.notifyDataSetChanged();
             sp2.setAdapter(dataAdapter6);
         }
+
     }
     private void showFileChooser() {
         Intent intent = new Intent();
@@ -247,6 +249,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             Toast.makeText(MainActivity.this, ""+taskSnapshot.getDownloadUrl(), Toast.LENGTH_SHORT).show();
                         }
                     });
+
         } else {
             //display an error if no file is selected
             Toast.makeText(this, "No file selected", Toast.LENGTH_SHORT).show();
@@ -259,6 +262,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             showFileChooser();
         } else if (view == buttonUpload) {
             uploadFile();
+
         } else if (view == textViewShow) {
             startActivity(new Intent(this, ShowImagesActivity.class));
         }
@@ -292,4 +296,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         alert.show();
 
     }
+
 }
